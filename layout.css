@@ -1,0 +1,332 @@
+/*************** Layout forside *********************/
+
+@media (min-width: 800px) {
+  .top_section_forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.billeder_test_forside {
+  position: relative;
+  width: fit-content;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.billeder_test_forside {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.b3 {
+  position: relative;
+  z-index: 1;
+  bottom: 30px;
+  left: 200px;
+}
+
+.b4 {
+  position: absolute;
+  top: 30px;
+  z-index: 2;
+  left: 50px;
+}
+@media (min-width: 800px) {
+  .billeder_test_forside {
+    position: relative;
+    width: fit-content;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .billeder_test_forside {
+    width: 250px;
+    border-radius: 10px;
+  }
+
+  .b3 {
+    position: relative;
+    z-index: 1;
+    bottom: 70px;
+    left: 200px;
+  }
+
+  .b4 {
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+  }
+}
+.forside_hele_sektion {
+  margin-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.forside_alle_bokse {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  padding-top: 40px;
+}
+
+.billeder_forside {
+  width: 165px;
+  height: auto;
+}
+
+.boks_forside {
+  background-color: rgb(233, 210, 166);
+}
+
+.under_grid_forside {
+  padding-inline: 5px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+@media (min-width: 800px) {
+  .under_grid_forside {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .forside_alle_bokse {
+    padding-top: 40px;
+    margin-bottom: 5px;
+    padding-bottom: 7%;
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+}
+
+.bagrund_forside {
+  background-image: url(imgs/Skærmbillede\ 2025-10-19\ 202207.png);
+  height: 400px;
+}
+@media (min-width: 800px) {
+  .bagrund_forside {
+    background-image: url(imgs/Skærmbillede\ 2025-10-19\ 202207.png);
+    height: 600px;
+  }
+}
+
+footer {
+  background-image: url(imgs/Skærmbillede\ 2025-10-19\ 202207.png);
+  height: 350px;
+  margin-top: 100px;
+}
+
+/*************** Layout bogklub *********************/
+
+.billeder_bogklubber {
+  height: 100px;
+  width: auto;
+  padding-left: 100px;
+}
+.section_bogklub {
+  margin-top: 80px;
+  padding-inline: 50px;
+  margin-bottom: 50px;
+}
+
+.boks1_bogklub {
+  background-color: rgb(218, 163, 143, 0.947);
+  padding-inline: 50px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+.boks2_bogklub {
+  background-color: rgb(218, 163, 143, 0.947);
+  padding-inline: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+
+.boks3_bogklub {
+  background-color: rgb(218, 163, 143, 0.947);
+  padding-inline: 30px;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 800px) {
+  .section_bogklub {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .billeder_bogklubber {
+    height: 130px;
+    width: auto;
+    padding-left: 100px;
+    margin-top: 20px;
+  }
+  .boks1_bogklub {
+    background-color: rgba(238, 193, 182, 0.947);
+    padding-inline: 30px;
+  }
+  .boks2_bogklub {
+    background-color: rgba(238, 193, 182, 0.947);
+    padding-inline: 30px;
+  }
+
+  .boks3_bogklub {
+    background-color: rgba(238, 193, 182, 0.947);
+    padding-inline: 30px;
+  }
+}
+
+/*************** Layout anbefalinger *********************/
+
+.billeder_anbefalinger {
+  width: 90px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.anbefalinger_alle_bokse {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.p_anbefalinger {
+  max-width: 250px;
+}
+
+.lille_billede_anbefalinger {
+  width: 150px;
+  height: auto;
+}
+
+.billeder_test {
+  position: relative;
+  width: fit-content;
+  margin-top: 70px;
+}
+
+.billeder_test {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.b1 {
+  position: relative;
+  z-index: 1;
+  bottom: 30px;
+  left: 60px;
+}
+
+.b2 {
+  position: absolute;
+  top: 10px;
+  z-index: 2;
+  left: 360px;
+}
+@media (min-width: 800px) {
+  .anbefalinger_alle_bokse {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    padding-top: 40px;
+    padding-left: 40px;
+    gap: 10px;
+  }
+
+  .billeder_anbefalinger {
+    width: 140px;
+    height: auto;
+  }
+
+  .p_anbefalinger {
+    max-width: 500px;
+  }
+
+  .stort_billede_anbefalinger {
+    width: 420px;
+    height: auto;
+    margin-top: 40px;
+    padding-left: 50px;
+  }
+  .anbefalinger_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .top_section_anbefalinger {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .p2 {
+    max-width: 600px;
+  }
+
+  .billeder_test {
+    position: relative;
+    width: fit-content;
+  }
+
+  .billeder_test {
+    width: 290px;
+    border-radius: 10px;
+  }
+
+  .b1 {
+    position: relative;
+    z-index: 1;
+    bottom: 70px;
+  }
+
+  .b2 {
+    position: absolute;
+    top: 10px;
+    right: 120px;
+    z-index: 2;
+  }
+}
+/*************** Layout footer*********************/
+.billede1_footer {
+  width: 90px;
+  height: auto;
+  padding-top: 110px;
+}
+
+.billede2_footer {
+  width: 120px;
+  height: auto;
+  padding-left: 35px;
+}
+
+.footer_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 10px;
+}
+
+@media (min-width: 800px) {
+  .billede1_footer {
+    width: 150px;
+    height: auto;
+    padding-top: 110px;
+  }
+
+  .billede2_footer {
+    width: 150px;
+    height: auto;
+    padding-left: 35px;
+  }
+
+  .footer_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 130px;
+  }
+}

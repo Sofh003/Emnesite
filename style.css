@@ -1,0 +1,544 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*************** Fonts *********************/
+
+h1 {
+  margin-top: 5rem;
+  font-family: "Syne", sans-serif;
+  font-size: 2rem;
+  font-weight: 750;
+  font-style: normal;
+  letter-spacing: 4.3px;
+  color: rgb(109, 59, 26);
+  margin-left: 40px;
+}
+
+h2 {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  color: rgb(190, 58, 82);
+  margin-top: -12px;
+  margin-left: 100px;
+}
+.h4_forside {
+  margin-top: 10rem;
+  font-family: "Syne", sans-serif;
+  letter-spacing: 2.5px;
+  font-weight: 730;
+  font-size: 1rem;
+  color: rgb(124, 146, 58);
+  text-align: left;
+  padding-left: 40px;
+  max-width: 600px;
+  margin-bottom: 5rem;
+}
+h3 {
+  margin-top: 100px;
+  margin-left: 20px;
+  font-family: "Syne", sans-serif;
+  letter-spacing: 2.5px;
+  font-weight: 730;
+  font-size: 1.2rem;
+  color: rgb(190, 58, 82);
+}
+
+@media (min-width: 800px) {
+  h1 {
+    margin-top: 5rem;
+    font-family: "Syne", sans-serif;
+    font-size: 2.7rem;
+    font-weight: 750;
+    font-style: normal;
+    letter-spacing: 4.3px;
+    color: rgb(109, 59, 26);
+    margin-left: 40px;
+  }
+  h2 {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 2.6rem;
+    color: rgb(190, 58, 82);
+    margin-top: -12px;
+    margin-left: 230px;
+  }
+  .h4_forside {
+    margin-top: 10rem;
+    font-family: "Syne", sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: 730;
+    font-size: 1.4rem;
+    color: rgb(124, 146, 58);
+    text-align: left;
+    padding-left: 40px;
+    max-width: 600px;
+    margin-bottom: 10rem;
+  }
+  h3 {
+    margin-top: 80px;
+    margin-left: 97px;
+    font-family: "Syne", sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: 730;
+    font-size: 1.4rem;
+    color: rgb(190, 58, 82);
+  }
+}
+.h1_menuer {
+  margin-top: 5rem;
+  font-family: "Syne", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 750;
+  font-style: normal;
+  letter-spacing: 4.3px;
+  color: rgb(109, 59, 26);
+  text-align: left;
+}
+
+.h1_bogklub {
+  margin-top: 5rem;
+  font-family: "Syne", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 750;
+  font-style: normal;
+  letter-spacing: 4.3px;
+  color: rgb(109, 59, 26);
+  text-align: center;
+}
+
+p {
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-block: 0.8rem;
+  color: rgb(106, 52, 23);
+}
+
+.p_footer {
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-block: 0.8rem;
+  color: rgb(106, 52, 23);
+  padding-left: 20px;
+}
+@media (min-width: 800px) {
+  .p_footer {
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-block: 0.8rem;
+    color: rgb(106, 52, 23);
+    padding-left: 20px;
+  }
+}
+.p_anbefalinger {
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-block: 0.8rem;
+  color: rgb(106, 52, 23);
+}
+.p2 {
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: rgb(189, 59, 49);
+  max-width: 600px;
+  padding-left: 40px;
+  max-width: 400px;
+}
+
+.p2_bogklub {
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: rgb(189, 59, 49);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.p3 {
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  color: rgb(189, 59, 49);
+  padding-inline: 20px;
+}
+
+h4 {
+  margin-top: 5rem;
+  font-family: "Syne", sans-serif;
+  letter-spacing: 2.5px;
+  font-weight: 730;
+  font-size: 1.4rem;
+  color: rgb(92, 49, 27);
+  text-align: left;
+  padding-left: 40px;
+}
+
+.h4_footer {
+  padding-top: 30px;
+  font-family: "Syne", sans-serif;
+  letter-spacing: 2.5px;
+  font-weight: 730;
+  font-size: 0.9rem;
+  color: rgb(124, 146, 58);
+  max-width: 250px;
+  padding-inline: 20px;
+}
+@media (min-width: 800px) {
+  .h4_footer {
+    padding-top: 30px;
+    font-family: "Syne", sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: 730;
+    font-size: 1.3rem;
+    color: rgb(124, 146, 58);
+    max-width: 250px;
+  }
+}
+.h5_anbefalinger {
+  font-family: "Karla", sans-serif;
+  font-weight: 750;
+  font-size: 1.1rem;
+  color: #683613;
+}
+
+h5 {
+  font-family: "Karla", sans-serif;
+  font-weight: 750;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #683613;
+}
+
+.h5_forside {
+  margin-top: 10px;
+  font-family: "Syne", sans-serif;
+  letter-spacing: 2.5px;
+  font-weight: 730;
+  font-size: 1rem;
+  color: rgb(124, 146, 58);
+}
+
+.p3_forside {
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  letter-spacing: normal;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: rgb(120, 59, 33);
+}
+
+@media (min-width: 800px) {
+  .p3_forside {
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: rgb(120, 59, 33);
+  }
+  .h5_forside {
+    margin-top: 60px;
+    font-family: "Syne", sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: 730;
+    font-size: 1.3rem;
+    color: rgb(124, 146, 58);
+  }
+}
+/*************** menu *********************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0c8ce;
+  box-shadow: 0 10px 10px rgba(137, 36, 53, 0.168);
+  z-index: 9999;
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0px;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: rgb(98, 40, 9);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  color: rgb(189, 59, 49);
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger .line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #333333;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    background-color: transparent;
+    border: 0;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  nav.active .menu {
+    display: block;
+    background-color: #fed9d9;
+    position: absolute;
+    top: 94px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 24px;
+  }
+}
+
+/*************** Baggrundsfarve på hver side*********************/
+.Forside {
+  background-color: rgb(243, 225, 198);
+}
+
+.Bøger {
+  background-color: rgb(202, 215, 215);
+}
+
+.Bogklubber {
+  background-color: rgb(230, 222, 170);
+}
+
+.Anbefalinger {
+  background-color: rgb(244, 213, 204);
+}
+
+/*************** Billeder *********************/
+
+.billede_1 {
+  width: 800px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+/*************** Billede med boks på bogklub siden *********************/
+.hero {
+  background-image: url("imgs/natanael-OgxyjT3u7Uc-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  position: relative;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(240, 202, 192, 0.947);
+  height: 150px;
+
+  text-align: center;
+  color: #4b2e1e;
+  font-family: Helvetica, sans-serif;
+  width: 400px;
+}
+
+@media (min-width: 800px) {
+  .text-box {
+    height: 130px;
+    width: 840px;
+  }
+  .p3 {
+    font-size: 1.5rem;
+    padding-inline: 5px;
+  }
+}
+
+/*************** Knapper forside *********************/
+
+.knap {
+  background-color: rgb(172, 176, 130);
+  padding: 2px 30px;
+  border-radius: 30px;
+
+  text-decoration: none;
+  font-family: "Syne", sans-serif;
+  font-weight: 730;
+  font-size: 0.8rem;
+  color: #a84962;
+
+  align-self: center;
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .knap {
+    padding: 5px 8px;
+    border-radius: 30px;
+    margin-right: 90px;
+    font-size: 0.9rem;
+  }
+}
+
+/*************** Knapper bogklubber *********************/
+.knap2 {
+  background-color: rgb(163, 177, 115);
+  padding: 2px 20px;
+  border-radius: 30px;
+
+  text-decoration: none;
+  font-family: "Syne", sans-serif;
+  font-weight: 730;
+  font-size: 0.8rem;
+  color: rgb(189, 59, 49);
+}
+
+@media (min-width: 800px) {
+  .knap2 {
+    padding: 5px 8px;
+    border-radius: 30px;
+    margin-right: 90px;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+}
+
+/*************** Bog og velkommen forside *********************/
+
+.baggrundsbillede_forside {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-image: url("imgs/image0\ \(4\).jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  filter: drop-shadow(4px 6px 8px rgba(0, 0, 0, 0.4));
+}
+
+.velkommen_text_forside {
+  text-align: center;
+  width: 400px;
+}
+
+@media (min-width: 800px) {
+  .baggrundsbillede_forside {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-image: url("imgs/image0\ \(4\).jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    filter: drop-shadow(4px 6px 8px rgba(0, 0, 0, 0.4));
+  }
+
+  .velkommen_text_forside {
+    text-align: center;
+    width: 600px;
+  }
+}

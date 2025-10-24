@@ -1,16 +1,10 @@
 /*************** Layout forside *********************/
 
-@media (min-width: 800px) {
-  .top_section_forside {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
 .billeder_test_forside {
   position: relative;
   width: fit-content;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 60px;
+  margin-bottom: 110px;
 }
 
 .billeder_test_forside {
@@ -18,45 +12,20 @@
   border-radius: 10px;
 }
 
-.b3 {
+.billede_bagerst {
   position: relative;
   z-index: 1;
   bottom: 30px;
   left: 200px;
 }
 
-.b4 {
+.billede_forrest {
   position: absolute;
   top: 30px;
   z-index: 2;
-  left: 50px;
+  left: 100px;
 }
-@media (min-width: 800px) {
-  .billeder_test_forside {
-    position: relative;
-    width: fit-content;
-    margin-top: 70px;
-    margin-bottom: 70px;
-  }
 
-  .billeder_test_forside {
-    width: 250px;
-    border-radius: 10px;
-  }
-
-  .b3 {
-    position: relative;
-    z-index: 1;
-    bottom: 70px;
-    left: 200px;
-  }
-
-  .b4 {
-    position: absolute;
-    top: 10px;
-    z-index: 2;
-  }
-}
 .forside_hele_sektion {
   margin-top: 10%;
   padding-left: 5%;
@@ -82,8 +51,22 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
+.bagrund_forside {
+  background-image: url(imgs/Skærmbillede\ 2025-10-19\ 202207.png);
+  height: 400px;
+}
+
+footer {
+  background-image: url(imgs/Skærmbillede\ 2025-10-19\ 202207.png);
+  height: 350px;
+  margin-top: 100px;
+}
 
 @media (min-width: 800px) {
+  .top_section_forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   .under_grid_forside {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -96,23 +79,34 @@
     padding-left: 7%;
     padding-right: 7%;
   }
-}
+  .billeder_test_forside {
+    position: relative;
+    width: fit-content;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
 
-.bagrund_forside {
-  background-image: url(imgs/Skærmbillede\ 2025-10-19\ 202207.png);
-  height: 400px;
-}
-@media (min-width: 800px) {
+  .billeder_test_forside {
+    width: 250px;
+    border-radius: 10px;
+  }
+
+  .billede_bagerst {
+    position: relative;
+    z-index: 1;
+    bottom: 70px;
+    left: 230px;
+  }
+
+  .billede_forrest {
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+  }
   .bagrund_forside {
     background-image: url(imgs/Skærmbillede\ 2025-10-19\ 202207.png);
     height: 600px;
   }
-}
-
-footer {
-  background-image: url(imgs/Skærmbillede\ 2025-10-19\ 202207.png);
-  height: 350px;
-  margin-top: 100px;
 }
 
 /*************** Layout bogklub *********************/
@@ -129,14 +123,14 @@ footer {
 }
 
 .boks1_bogklub {
-  background-color: rgb(218, 163, 143, 0.947);
+  background-color: rgba(238, 193, 182, 0.947);
   padding-inline: 50px;
   padding-bottom: 40px;
   padding-top: 40px;
   margin-bottom: 50px;
 }
 .boks2_bogklub {
-  background-color: rgb(218, 163, 143, 0.947);
+  background-color: rgba(238, 193, 182, 0.947);
   padding-inline: 30px;
   margin-bottom: 50px;
   padding-bottom: 40px;
@@ -145,7 +139,7 @@ footer {
 }
 
 .boks3_bogklub {
-  background-color: rgb(218, 163, 143, 0.947);
+  background-color: rgba(238, 193, 182, 0.947);
   padding-inline: 30px;
   margin-bottom: 50px;
   padding-bottom: 40px;
@@ -218,18 +212,18 @@ footer {
   border-radius: 10px;
 }
 
-.b1 {
+.billede_bagerst_anbefalinger {
   position: relative;
   z-index: 1;
   bottom: 30px;
-  left: 60px;
+  left: 35px;
 }
 
-.b2 {
+.billede_forrest_anbefalinger {
   position: absolute;
   top: 10px;
   z-index: 2;
-  left: 360px;
+  left: 250px;
 }
 @media (min-width: 800px) {
   .anbefalinger_alle_bokse {
@@ -275,7 +269,7 @@ footer {
   }
 
   .billeder_test {
-    width: 290px;
+    width: 250px;
     border-radius: 10px;
   }
 

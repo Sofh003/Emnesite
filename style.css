@@ -35,7 +35,7 @@ h2 {
   margin-left: 100px;
 }
 .h4_forside {
-  margin-top: 10rem;
+  margin-top: 5rem;
   font-family: "Syne", sans-serif;
   letter-spacing: 2.5px;
   font-weight: 730;
@@ -54,6 +54,137 @@ h3 {
   font-weight: 730;
   font-size: 1.2rem;
   color: rgb(190, 58, 82);
+}
+
+.h1_menuer {
+  margin-top: 5rem;
+  font-family: "Syne", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 750;
+  font-style: normal;
+  letter-spacing: 4.3px;
+  color: rgb(109, 59, 26);
+  text-align: left;
+}
+
+.h1_bogklub {
+  margin-top: 5rem;
+  font-family: "Syne", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 750;
+  font-style: normal;
+  letter-spacing: 4.3px;
+  color: rgb(109, 59, 26);
+  text-align: center;
+}
+
+p {
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-block: 0.8rem;
+  color: rgb(106, 52, 23);
+}
+
+.p_footer {
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-block: 0.8rem;
+  color: rgb(106, 52, 23);
+  padding-left: 20px;
+}
+
+.p_anbefalinger {
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-block: 0.8rem;
+  color: rgb(106, 52, 23);
+}
+.p2 {
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: rgb(189, 59, 49);
+  max-width: 600px;
+  padding-left: 40px;
+  max-width: 400px;
+}
+
+.p2_bogklub {
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: rgb(189, 59, 49);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.p3 {
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  color: rgb(189, 59, 49);
+  padding-inline: 20px;
+}
+
+h4 {
+  margin-top: 2rem;
+  font-family: "Syne", sans-serif;
+  letter-spacing: 2.5px;
+  font-weight: 730;
+  font-size: 1.4rem;
+  color: rgb(92, 49, 27);
+  text-align: left;
+  padding-left: 40px;
+}
+
+.h4_footer {
+  padding-top: 30px;
+  font-family: "Syne", sans-serif;
+  letter-spacing: 2.5px;
+  font-weight: 730;
+  font-size: 0.9rem;
+  color: rgb(124, 146, 58);
+  max-width: 250px;
+  padding-inline: 20px;
+}
+
+.h5_anbefalinger {
+  font-family: "Karla", sans-serif;
+  font-weight: 750;
+  font-size: 1.1rem;
+  color: #683613;
+}
+
+h5 {
+  font-family: "Karla", sans-serif;
+  font-weight: 750;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #683613;
+}
+
+.h5_forside {
+  margin-top: 10px;
+  font-family: "Syne", sans-serif;
+  letter-spacing: 2.5px;
+  font-weight: 730;
+  font-size: 1rem;
+  color: rgb(124, 146, 58);
+}
+
+.p3_forside {
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  letter-spacing: normal;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: rgb(120, 59, 33);
 }
 
 @media (min-width: 800px) {
@@ -98,158 +229,6 @@ h3 {
     font-size: 1.4rem;
     color: rgb(190, 58, 82);
   }
-}
-.h1_menuer {
-  margin-top: 5rem;
-  font-family: "Syne", sans-serif;
-  font-size: 2.2rem;
-  font-weight: 750;
-  font-style: normal;
-  letter-spacing: 4.3px;
-  color: rgb(109, 59, 26);
-  text-align: left;
-}
-
-.h1_bogklub {
-  margin-top: 5rem;
-  font-family: "Syne", sans-serif;
-  font-size: 2.2rem;
-  font-weight: 750;
-  font-style: normal;
-  letter-spacing: 4.3px;
-  color: rgb(109, 59, 26);
-  text-align: center;
-}
-
-p {
-  font-family: "Karla", sans-serif;
-  font-weight: 600;
-  font-size: 1rem;
-  margin-block: 0.8rem;
-  color: rgb(106, 52, 23);
-}
-
-.p_footer {
-  font-family: "Karla", sans-serif;
-  font-weight: 600;
-  font-size: 0.8rem;
-  margin-block: 0.8rem;
-  color: rgb(106, 52, 23);
-  padding-left: 20px;
-}
-@media (min-width: 800px) {
-  .p_footer {
-    font-family: "Karla", sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    margin-block: 0.8rem;
-    color: rgb(106, 52, 23);
-    padding-left: 20px;
-  }
-}
-.p_anbefalinger {
-  font-family: "Karla", sans-serif;
-  font-weight: 600;
-  font-size: 0.8rem;
-  margin-block: 0.8rem;
-  color: rgb(106, 52, 23);
-}
-.p2 {
-  font-family: "Karla", sans-serif;
-  font-weight: 600;
-  font-size: 1.2rem;
-  margin-top: 2rem;
-  color: rgb(189, 59, 49);
-  max-width: 600px;
-  padding-left: 40px;
-  max-width: 400px;
-}
-
-.p2_bogklub {
-  font-family: "Karla", sans-serif;
-  font-weight: 600;
-  font-size: 1.2rem;
-  margin-top: 2rem;
-  color: rgb(189, 59, 49);
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.p3 {
-  font-family: "Syne", sans-serif;
-  font-weight: 700;
-  margin-top: 3rem;
-  font-size: 1.3rem;
-  color: rgb(189, 59, 49);
-  padding-inline: 20px;
-}
-
-h4 {
-  margin-top: 5rem;
-  font-family: "Syne", sans-serif;
-  letter-spacing: 2.5px;
-  font-weight: 730;
-  font-size: 1.4rem;
-  color: rgb(92, 49, 27);
-  text-align: left;
-  padding-left: 40px;
-}
-
-.h4_footer {
-  padding-top: 30px;
-  font-family: "Syne", sans-serif;
-  letter-spacing: 2.5px;
-  font-weight: 730;
-  font-size: 0.9rem;
-  color: rgb(124, 146, 58);
-  max-width: 250px;
-  padding-inline: 20px;
-}
-@media (min-width: 800px) {
-  .h4_footer {
-    padding-top: 30px;
-    font-family: "Syne", sans-serif;
-    letter-spacing: 2.5px;
-    font-weight: 730;
-    font-size: 1.3rem;
-    color: rgb(124, 146, 58);
-    max-width: 250px;
-  }
-}
-.h5_anbefalinger {
-  font-family: "Karla", sans-serif;
-  font-weight: 750;
-  font-size: 1.1rem;
-  color: #683613;
-}
-
-h5 {
-  font-family: "Karla", sans-serif;
-  font-weight: 750;
-  font-size: 1.2rem;
-  margin-top: 1rem;
-  color: #683613;
-}
-
-.h5_forside {
-  margin-top: 10px;
-  font-family: "Syne", sans-serif;
-  letter-spacing: 2.5px;
-  font-weight: 730;
-  font-size: 1rem;
-  color: rgb(124, 146, 58);
-}
-
-.p3_forside {
-  font-family: "Syne", sans-serif;
-  font-weight: 700;
-  letter-spacing: normal;
-  margin-top: 1rem;
-  font-size: 0.8rem;
-  color: rgb(120, 59, 33);
-}
-
-@media (min-width: 800px) {
   .p3_forside {
     font-family: "Syne", sans-serif;
     font-weight: 700;
@@ -265,6 +244,23 @@ h5 {
     font-weight: 730;
     font-size: 1.3rem;
     color: rgb(124, 146, 58);
+  }
+  .h4_footer {
+    padding-top: 30px;
+    font-family: "Syne", sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: 730;
+    font-size: 1.3rem;
+    color: rgb(124, 146, 58);
+    max-width: 250px;
+  }
+  .p_footer {
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-block: 0.8rem;
+    color: rgb(106, 52, 23);
+    padding-left: 20px;
   }
 }
 /*************** menu *********************/
@@ -400,7 +396,7 @@ header {
 }
 
 .Anbefalinger {
-  background-color: rgb(244, 213, 204);
+  background-color: rgb(243, 220, 214);
 }
 
 /*************** Billeder *********************/
@@ -415,8 +411,8 @@ header {
 }
 
 /*************** Billede med boks på bogklub siden *********************/
-.hero {
-  background-image: url("imgs/natanael-OgxyjT3u7Uc-unsplash.jpg");
+.stort_bagrundsbillede_bogklubber {
+  background-image: url("imgs/natanael-OgxyjT3u7Uc-unsplash.webp");
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -505,7 +501,7 @@ header {
   position: absolute;
   width: 100%;
   height: 300px;
-  background-image: url("imgs/image0\ \(4\).jpeg");
+  background-image: url("imgs/image0\(4\).webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -526,7 +522,7 @@ header {
     position: absolute;
     width: 100%;
     height: 500px;
-    background-image: url("imgs/image0\ \(4\).jpeg");
+    background-image: url("imgs/image0\(4\).webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
